@@ -1,7 +1,7 @@
-import React from React;
+import React from 'react';
 
-export default const SimplerComponent = props => {
-  return (
-
-  )
+const SimplerComponent = props => {
+  return <div onClick={props.handleClick}><p>"I am just happy"</p></div>
 }
+
+export default SimplerComponent
