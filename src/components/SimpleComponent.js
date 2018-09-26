@@ -16,8 +16,7 @@ export default class SimpleComponent extends Component {
   render() {
     return (
       <div onClick={this.handleClick}>
-        <h3>Mood:</h3>
-        <p>{this.state.mood}</p>
+        <h2>{this.state.mood}</h2>
       </div>
     )
   }
